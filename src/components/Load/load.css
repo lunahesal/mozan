@@ -1,0 +1,148 @@
+
+.wrapp{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(119,119,119,0.5);
+    position:fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.login{
+    width: 420px;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    position:absolute;
+    top:20px;
+    left:50%;
+    margin-left: -210px;
+}
+.login .inlogin{
+    width: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.inlogin .close{
+    float: right;
+    font-size: 20px;
+    color:#000;
+}
+.inlogin>p{
+    text-align: right;
+}
+.inlogin .logo1{
+    display: block;
+    width: 190px;
+    padding-top: 61px;
+    background-image: url(../images/logo.png);
+    background-position: 0 -65px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.wrapp form{
+    width: 380px;
+    padding-top: 40px;
+}
+.wrapp form>div{
+    margin-bottom: 20px;
+    display: flex;
+}
+.wrapp form input{
+    display: block;
+    width: 333px;
+    line-height: 42px;
+    text-indent: 15px;
+    color:#b9bccb;
+    outline:0;
+    border:1px solid #babdcc;
+}
+.inlogin label{
+    display: block;
+    padding: 22px ;
+    border:1px solid #babdcc;
+    border-right: 0;
+
+}
+.inlogin .tel{
+    background: url(../images/load_03.png) no-repeat 11px 8px;
+}
+.inlogin .password{
+    background: url(../images/load_03.png) no-repeat 11px -57px;
+}
+.inlogin .code{
+    width: 231px;
+    border-left:1px solid #babdcc;
+}
+
+.wrapp form span{
+    color:red;
+    display: none;
+}
+.inlogin .codebox{
+    position: relative;
+    display: flex;
+}
+.inlogin .codebox span{
+    position: absolute;
+    top:50px;
+    left:0;
+}
+.wrapp form img{
+    display: block;
+}
+.inlogin .load{
+    display: block;
+    width: 380px;
+    line-height: 46px;
+    color:#000;
+    font-size: 24px;
+    text-align: center;
+    background-color: #fff500;
+    margin: 43px 0 50px;
+}
+.inlogin .forget{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.inlogin .forget>a{
+    color:#000;
+}
+.login .line{
+    height: 3px;
+    background:rgba(119,119,119,0.5);
+}
+.login .thirdload{
+    width: 307px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.login .thirdload>a>i{
+    font-size: 30px;
+}
+.login .thirdload>a:nth-child(1)>i{
+    color:#0c9eeb;
+}
+.login .thirdload>a:nth-child(2)>i{
+    color:#28c62b;
+}
+.login .thirdload>a:nth-child(3)>i{
+    color:#ed0000;
+}
+
+
+.wrapp .active{
+    border:1px solid #fdd900;
+    }
+.wrapp .active1{
+    border:1px solid #fdd900;
+    border-right:0;
+    }

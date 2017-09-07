@@ -173,29 +173,3 @@
         line-height: 20px;
      }
      /*******************/
-
-
-
-
-    /*气泡提示*/
-    .delbtn{
-        position:absolute;
-        background: url(../images/dell_03.png) no-repeat 0px 3px;
-        width: 210px;
-        padding: 12px 0 3px 3px;
-        display: none;
-    }
-    .delbtn>a{
-        line-height: 32px;
-        float: left;
-        text-align: center;
-        color:#fff;
-    }
-    .delbtn .delyes{
-        width: 74px;
-        background-color: #f50000;
-    }
-    .delbtn .delno{
-        width: 126px;
-        background-color: #2b2e33;
-    }
