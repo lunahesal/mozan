@@ -1,0 +1,71 @@
+.join{
+    padding-bottom: 70px;
+}
+.join>div:nth-child(3){
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-top: 2px solid #babec9;
+  border-bottom: 2px solid #babec9;
+  padding: 9px 11px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.pic{
+  display: flex;
+  align-items:center;
+  margin-right: 20px;
+}
+.pic img{
+  display: block;
+  margin-right: 9px;
+}
+.join .words{
+  width: 238px;
+  color:#2b3036;
+  font-size: 18px;
+  line-height: 22px;
+}
+.join .words:hover{
+  color:#fdd900;
+}
+.join .sizes{
+  border-left: 2px solid #fdd900;
+  padding-left: 21px;
+  flex-grow: 2;
+}
+.join .sizes>span{
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color:#b6b7b7;
+}
+.join .btn{
+  display: flex;
+  align-items:center;
+}
+.join .btn>a{
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  font-size: 18px;
+  text-align: center;
+}
+.join .btn>a:nth-child(1){
+  width: 132px;
+  color:#fff;
+  background-color: #2b2e33;
+  margin-right: 10px;
+}
+.join .btn>a:nth-child(1):hover{
+  color:#fdd900;
+}
+.join .btn>a:nth-child(2){
+  width: 210px;
+  color:#000;
+  background-color: #fdd900;
+}
+.join .btn>a:nth-child(2):hover{
+  color:#fff;
+}

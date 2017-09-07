@@ -1,0 +1,27 @@
+.count{
+    width: 418px;
+    background-color: #707378;
+    border-radius: 8px;
+    padding: 3px 0 3px 18px;
+    box-sizing: border-box;
+}
+.timenum span{
+    font-size: 38px;
+    color: #fdd900;
+    line-height: 26px;
+}
+.timenum span b{
+    margin-right: 27px;
+    margin-left: 27px;
+}
+.day span {
+    font-size: 14px;
+}
+.day span:nth-child(1){
+    margin-left: 15px;
+    margin-right: 96px;
+}
+.day span:nth-child(3){
+    margin-left: 90px;
+    margin-right: 94px;
+}

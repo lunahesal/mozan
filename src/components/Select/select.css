@@ -1,0 +1,96 @@
+.select{
+    padding-left: 50px;
+    border-left: 2px solid #fff;
+}
+.select p{
+    width: 64px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.select>div{
+    display: flex;
+}
+.select>div>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.select a{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+}
+.price{
+    margin-bottom: 28px;
+}
+.price>div{
+    margin-top: -10px;
+    flex-direction: column;
+}
+.price b{
+    display: block;
+    color: #fcd800;
+    font-size: 24px;
+    margin-left: -3px;
+}
+.price b em{
+    font-size: 36px;
+}
+.price span{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+.style1 {
+    margin-bottom: 30px;
+}
+.style1 a{
+    width: 77px;
+}
+.size{
+    margin-bottom: 23px;
+}
+.size div{
+    width: 300px;
+}
+.size a{
+    width: 62px;
+    margin-bottom: 5px;
+}
+.num{
+    margin-bottom: 10px;
+}
+.num>div{
+  width: 315px;
+  justify-content: space-between;
+}
+.num a{
+    width: 70px;
+    line-height: 36px;
+    font-size: 24px;
+    margin: 0;
+}
+.num span{
+    width: 20px;
+    line-height: 38px;
+    color: #fff;
+}
+.ps div{
+    font-size: 14px;
+    color:#fff;
+    line-height: 28px;
+}
+.ps div span{
+    color:#d0bc3f;
+}
+.select .active{
+    border: 1px solid #f2d726;
+}
