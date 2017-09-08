@@ -59,17 +59,29 @@
       align-items:center;
       justify-content: space-between;
     }
+    .search{
+      flex-basis: 58px;
+    }
+    .cart{
+      flex-grow: 1;
+    }
     .topother>div{
         line-height: 90px;
         margin-right: -12px;
     }
-    .topother>div>a:nth-child(1),.topother>div>a:nth-child(3),.topother>div>span{
+    .topother>div>a:nth-child(1){
         color:#fff;
         opacity:0.5;
     }
-    .topother>div>a:nth-child(1):hover,.topother>div>a:nth-child(3):hover{
+    .topother>div>a:nth-child(1):hover{
         color:#ffd800;
     }
+    .logout-str{
+      color:#fff;
+      opacity:0.5;
+      cursor: pointer;
+    }
+
 
     /*footer样式*/
     .footer{

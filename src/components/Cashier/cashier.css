@@ -1,0 +1,118 @@
+.join .word span:first-child{
+    border-bottom: 2px solid #000;
+}
+.wordthr{
+    border-bottom: 5px solid #000;
+}
+
+.joindown{
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 315px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.downone{
+    padding-bottom: 14px;
+    border-bottom: 2px solid #2b2e35;
+    display: flex;
+    flex-direction: column;
+}
+.please{
+    color:#2b2e35;
+    font-size:18px;
+    font-weight: bold;
+}
+.tip{
+  display: flex;
+  justify-content: space-between;
+}
+.time span{
+    color:#f80000;
+    line-height: 24px;
+}
+
+.mny span{
+   color:#f10000;
+   font-size:24px;
+
+}
+.mny em{
+  font-style: normal;
+}
+.numm{
+    border-bottom: 1px solid #babec9;
+    display: flex;
+    justify-content: space-between;
+}
+.numm>p:nth-child(1){
+   color:#2b2e35;
+    font-size:18px;
+    font-weight: bold;
+    line-height: 78px;
+}
+.adress{
+    font-size: 14px;
+    padding-top: 15px;
+}
+.adress>p{
+  text-align: right;
+}
+.adress>p svg{
+  vertical-align: text-top;
+}
+.way{
+    padding: 20px 0;
+    border-bottom: 2px solid #2b2e35;
+    display: flex;
+}
+.way>p{
+    line-height: 46px;
+    font-size:18px;
+    font-weight: bold;
+    color:#2a2f33;
+}
+.way a{
+    display: block;
+    width: 130px;
+    padding-top: 46px;
+    border:1px solid #babec9;
+    margin-left: 10px;
+    box-sizing:border-box;
+}
+.way .ali{
+    background: url(../images/ways_06.png) no-repeat 23px 8px;
+}
+.way .wmp{
+    background: url(../images/ways_06.png) no-repeat -120px 8px;
+    float: left;
+}
+.pay{
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.gopay{
+    width: 220px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fdd900;
+    color:#423f2e;
+    font-size: 26px;
+}
+.way div{
+    width: 142px;
+    float: left;
+}
+.way .active1{
+    border:0;
+}
+.way .active{
+    background: url('../images/way_03.png') no-repeat 9px 0px;
+    border:1px solid #fff;
+}

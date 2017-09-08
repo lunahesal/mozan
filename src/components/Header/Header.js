@@ -7,6 +7,21 @@ import search from '../icons/search.svg'
 
 class Header extends Component{
   render(){
+    const {showLoadForm,currentUser,logout} = this.props
+    const logoutStr = (
+      <span className="logout-str">
+        {currentUser} |
+         <span onClick={logout}
+          className='logout-bth'>
+           退出
+        </span>
+      </span>
+    )
+    const loadStr = (
+      <a href="javascript:;" onClick={showLoadForm}>
+        登录
+      </a>
+    )
     return (
       <div className='header'>
           <div className="top">
@@ -25,9 +40,12 @@ class Header extends Component{
                   <img className='bag' src={bag} alt="" />
                 </a>
                 <div>
-                  <a href="#">登录</a>
-                  <span> / </span>
-                  <a href="#">注册</a>
+                  {currentUser?logoutStr:loadStr}
+
+                  {
+                    // <span> / </span>
+                    // <a href="#">注册</a>
+                  }
                 </div>
               </div>
             </div>

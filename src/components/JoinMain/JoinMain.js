@@ -14,7 +14,7 @@ class JoinMain extends Component{
   					</div>
   				</div>
   				<div></div>
-  				<div>
+  				<div className='joinList'>
   					<div className="pic">
   						<a href="#">
   							<img src={join_01} alt="" />
