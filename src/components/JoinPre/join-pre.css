@@ -1,0 +1,119 @@
+.joinpre{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-bottom: 70px;
+}
+.joinpreup{
+  background-color: #fdd900;
+  padding: 24px 0 14px;
+}
+.joinpreup>div{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.joinpreup p{line-height: 60px;
+  font-size:30px;
+  color:#2b2e33;
+  border-left: 5px solid #000;
+  padding-left: 22px;
+}
+.joinpre p b{
+  font-weight: normal;
+  font-size:24px;
+}
+.joinpre p b span{
+  color:#f85a03;
+}
+.joinpre .word{
+  margin-top: 19px;
+}
+.joinpre .word>span{
+  font-size:18px;
+  color:#2c2d32;
+  line-height: 36px;
+  border-bottom: 2px solid #000;
+  margin-left: 20px;
+}
+.joinpre .word>span:first-child{
+  border-bottom: 5px solid #000;
+}
+.joinpre>div:nth-child(2){
+  width: 1200px;
+  padding-top: 53px;
+  background-image: url('../images/order.png');
+  background-repeat: no-repeat;
+}
+
+
+
+.joinpreList{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-top: 2px solid #babec9;
+  border-bottom: 2px solid #babec9;
+  padding: 9px 11px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.pic{
+  display: flex;
+  align-items:center;
+  margin-right: 20px;
+}
+.pic img{
+  display: block;
+  margin-right: 9px;
+}
+.joinpre .words{
+  width: 238px;
+  color:#2b3036;
+  font-size: 18px;
+  line-height: 22px;
+}
+.joinpre .words:hover{
+  color:#fdd900;
+}
+.joinpre .sizes{
+  border-left: 2px solid #fdd900;
+  padding-left: 21px;
+  flex-grow: 2;
+}
+.joinpre .sizes>span{
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color:#b6b7b7;
+}
+.joinpre .btn{
+  display: flex;
+  align-items:center;
+}
+.joinpre .btn>a{
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  font-size: 18px;
+  text-align: center;
+}
+.joinpre .btn>a:nth-child(1){
+  width: 132px;
+  color:#fff;
+  background-color: #2b2e33;
+  margin-right: 10px;
+}
+.joinpre .btn>a:nth-child(1):hover{
+  color:#fdd900;
+}
+.joinpre .btn>a:nth-child(2){
+  width: 210px;
+  color:#000;
+  background-color: #fdd900;
+}
+.joinpre .btn>a:nth-child(2):hover{
+  color:#fff;
+}

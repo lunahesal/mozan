@@ -1,12 +1,94 @@
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, var,ul, li,form, label {
+html, body,  span, h1, h2, h3, h4, h5, h6, p, a, var,ul, li,form, label {
     margin: 0;
-    padding: 0;
+    /*padding: 0;
     border: 0;
     outline: 0;
     font-weight: inherit;
     font-style: inherit;
     font-size: 100%;
     font-family: inherit;
-    vertical-align: baseline;
+    vertical-align: baseline;*/
+}
+a{
+  text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.wrap{
+    width: 100%;
+}
+/*top样式*/
+.top{
+    width: 100%;
+    background-color: #2b2e33;
+}
+.topin{
+    width: 1100px;
+    margin: 0 auto;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+/*左上menu*/
+.menu{
+    width: 45px;
+    margin: 33px 0 32px 6px;
+}
+.menu>span{
+    display: block;
+    padding-top: 5px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    transition:all 0.2s;
+}
+.menu>span:nth-child(2){
+    margin: 5px 0;
+}
+.menu:hover span:nth-child(1){
+    margin-top: 3px;
+}
+.menu:hover span:nth-child(2){
+   margin: 2px 0;
+}
+/*logo*/
+.logo{
+    padding-left: 190px;
+    padding-top: 62px;
+    background: url(../images/logo.png) no-repeat;
+    position:absolute;
+    top:15px;
+    left:50%;
+    margin-left: -95px;
+}
+/*右上*/
+.topother{
+  display: flex;
+  flex-basis: 265px;
+  align-items:center;
+  justify-content: space-between;
+}
+.search{
+  flex-basis: 58px;
+}
+.cart{
+  flex-grow: 1;
+}
+.topother>div{
+    line-height: 90px;
+    margin-right: -12px;
+}
+.topother>div>a,.topother>div>span{
+    color:#fff;
+    opacity:0.5;
+}
+.topother>div>a:hover{
+    color:#ffd800;
+}
+.logout-str{
+  color:#fff;
+  opacity:0.5;
+  cursor: pointer;
 }

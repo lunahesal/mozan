@@ -24,8 +24,6 @@ section{
     width: 630px;
     padding-right: 50px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
 }
 .left>p>img{
     margin-right: 29px;

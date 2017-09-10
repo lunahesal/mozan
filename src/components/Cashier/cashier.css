@@ -1,17 +1,58 @@
-.join .word span:first-child{
-    border-bottom: 2px solid #000;
+.cashier{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
 }
-.wordthr{
+.cashierup{
+  background-color: #fdd900;
+  padding: 24px 0 14px;
+}
+.cashierup>div{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cashierup p{line-height: 60px;
+  font-size:30px;
+  color:#2b2e33;
+  border-left: 5px solid #000;
+  padding-left: 22px;
+}
+.cashier p b{
+  font-weight: normal;
+  font-size:24px;
+}
+.cashier p b span{
+  color:#f85a03;
+}
+.cashier .word{
+  margin-top: 19px;
+}
+.cashier .word>span{
+  font-size:18px;
+  color:#2c2d32;
+  line-height: 36px;
+  border-bottom: 2px solid #000;
+  margin-left: 20px;
+}
+.cashier>div:nth-child(2){
+  width: 1200px;
+  padding-top: 53px;
+  background-image: url('../images/order.png');
+  background-repeat: no-repeat;
+}
+.cashier .word .wordthr{
     border-bottom: 5px solid #000;
 }
 
-.joindown{
+.cashierdown{
     width: 1100px;
     margin: 0 auto;
     padding-bottom: 315px;
     display: flex;
     flex-direction: column;
-
+    /*display: none;*/
 }
 
 .downone{
@@ -58,10 +99,16 @@
     padding-top: 15px;
 }
 .adress>p{
-  text-align: right;
+  justify-content: flex-end;
+}
+.adress>p span,.adress>p{
+  display: flex;
 }
 .adress>p svg{
-  vertical-align: text-top;
+  display: block;
+}
+.onway{
+  /*display: none;*/
 }
 .way{
     padding: 20px 0;

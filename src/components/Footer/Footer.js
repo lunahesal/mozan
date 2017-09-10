@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
 import './footer.css'
-import guide from '../icons/guide.svg'
+import guider from '../icons/guider.svg'
 import pay from '../icons/pay.svg'
 import way from '../icons/way.svg'
 import service from '../icons/service.svg'
@@ -24,7 +24,7 @@ class Footer extends Component{
               <h3>帮助信息</h3>
               <div>
                 <ul>
-                  <li><img src={guide} alt=""/><a href="#">购物指南</a></li>
+                  <li><img src={guider} alt=""/><a href="#">购物指南</a></li>
                   <li><img src={pay} alt=""/><a href="#">支付方式</a></li>
                   <li><img src={way} alt=""/><a href="#">配送方式</a></li>
                   <li><img src={service} alt=""/><a href="#">售后服务</a></li>

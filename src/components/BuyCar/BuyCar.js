@@ -1,16 +1,18 @@
 import React,{Component} from 'react'
-import '../pub/joinPub.css'
-import './buyCar.css'
+
+import './buy-car.css'
 import join_01 from '../images/join_01.jpg'
 import yanzheng_03 from '../images/yanzheng_03.jpg'
 import Load from '../Load/Load'
+import Delete from '../Delete/Delete'
+
 
 class BuyCar extends Component{
   render(){
     return (
-    <section className='buyCar'>
-      <div className="join">
-				<div className="joinup">
+    <section className='buy-car'>
+      <div className="buycar">
+				<div className="buycarup">
 					<div>
 						<p>购物车
 							<b>[ <span className="totalqty"></span>件 ]</b>
@@ -122,7 +124,7 @@ class BuyCar extends Component{
 							<div className="endleft">
 								<input type="checkbox" id="all1" className='all' />
 								<label for="all1">全选</label>
-								<a href="#" className="deldown"><i className="iconfont icon-trash"></i>删除</a>
+								<a href="#" className="deldown"><Delete />删除</a>
 								<div className="delbtn delbtndown">
 									<a href="#" className="delyes">确定删除</a>
 									<a href="#" className="delno">不删除</a>

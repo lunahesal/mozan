@@ -1,0 +1,33 @@
+.paywx{
+        display: flex;
+        padding-top: 24px;
+        border-top: 2px solid #2b2e35;
+        display: none;
+    }
+    .paywx>p{
+        font-size: 26px;
+        flex-basis: 246px;
+    }
+    .paytime{
+        margin-right: 144px;
+    }
+    .paytime>p:nth-child(1){
+        margin-bottom: 18px;
+    }
+    .paytime>p>span{
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+    .timelast{
+        color:red;
+        font-style: normal;
+    }
+    .downtips{
+        background-color: #fdd900;
+        padding: 12px 0;
+        margin-top: 20px;
+    }
+    .paywx img{
+        display: block;
+    }

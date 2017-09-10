@@ -1,10 +1,54 @@
-.join .word span:first-child{
-    border-bottom: 2px solid #000;
+.orderin{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
 }
-.word span:nth-child(2){
-    border-bottom: 5px solid #000;
+.orderup{
+  background-color: #fdd900;
+  padding: 24px 0 14px;
 }
-.joindown{
+.orderup>div{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.orderup p{line-height: 60px;
+  font-size:30px;
+  color:#2b2e33;
+  border-left: 5px solid #000;
+  padding-left: 22px;
+}
+.orderin p b{
+  font-weight: normal;
+  font-size:24px;
+}
+.orderin p b span{
+  color:#f85a03;
+}
+.orderin .word{
+  margin-top: 19px;
+}
+.orderin .word>span{
+  font-size:18px;
+  color:#2c2d32;
+  line-height: 36px;
+  border-bottom: 2px solid #000;
+  margin-left: 20px;
+}
+.orderin .word span:nth-child(2){
+  border-bottom: 5px solid #000;
+}
+
+.orderin>div:nth-child(2){
+  width: 1200px;
+  padding-top: 53px;
+  background-image: url('../images/order.png');
+  background-repeat: no-repeat;
+}
+
+
+.orderdown{
     width: 1100px;
     margin: 0 auto;
     padding-bottom: 105px;
@@ -18,10 +62,12 @@
     justify-content: space-between;
 }
 .adr>a{
+    display: flex;
+    align-items: center;
     color:#000;
 }
-.adr>a i{
-    color:#000;
+.adr>a svg{
+    display: block;
     margin-right: 10px;
 }
 .list{
@@ -29,16 +75,22 @@
     border-bottom: 1px solid #babec9;
     font-size: 14px;
     position:relative;
-    /*display: flex;*/
-
+    display: flex;
+    justify-content: space-between;
 
 }
 .list ul{
     list-style: none;
-    line-height: 22px;
-    float: left;
+}
+.list ul svg{
+  display: block;
+}
+.list ul li{
+  display: flex;
+  line-height: 23px;
 }
 .list ul i{
+    width: 10px;
     margin-right: 5px;
 }
 .list ul  li:nth-child(2) i{
@@ -51,21 +103,46 @@
     margin-left: 2px;
 }
 .list>div{
-    float: right;
+
     margin-top: -3px;
 }
+.list>div:nth-child(2){
+  width: 256px;
+  display: flex;
+  justify-content: space-between;
+}
 .list>div:nth-child(2)>a{
-    float: left;
-    margin-left: 50px;
     color:#000;
     line-height: 68px;
 }
 .list>div:nth-child(2)>a i{
     margin-right: 3px;
 }
-.delbtn{
+.editor{
+  flex-grow: 1;
+  text-align: center;
+}
+.delbtn2{
+    width: 210px;
+    display: flex;
+    position:absolute;
     top:54px;
     right:4px;
+    background: url(../images/dell_03.png) no-repeat 0px 3px;
+    padding: 12px 0 3px 3px;
+}
+.delbtn2>a{
+    line-height: 32px;
+    text-align: center;
+    color:#fff;
+}
+.delbtn2 .delyes{
+    width: 74px;
+    background-color: #f50000;
+}
+.delbtn2 .delno{
+    width: 126px;
+    background-color: #2b2e33;
 }
 .showmore{
     line-height: 60px;
@@ -285,166 +362,6 @@
 
  /*新增地址弹窗样式*/
 
-.wrap{
-    position:relative;
-}
-.wrapp{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(119,119,119,0.5);
-    position:absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: none;
-}
-.newadr{
-    width: 690px;
-    position:absolute;
-    top:238px;
-    left:50%;
-    margin-left: -345px;
-    background-color: #fff;
-}
-.innew{
-    width: 650px;
-    margin: 0 auto;
-}
-.innew .inup{
-    border-bottom: 2px solid #000;
-    line-height: 58px;
-    font-size: 20px;
-}
-.innew h3{
-    font-weight: bold;
-    float: left;
-}
-.innew .inup>div{
-    float: right;
-}
-.innew .inup .close{
-    color:#000;
-}
-
-.innew input{
-    outline:0;
-    display: block;
-    border: 1px solid #babec9;
-    line-height: 22px;
-    text-indent: 10px;
-}
-.innew label{
-    display: block;
-    line-height: 22px;
-    font-size: 14px;
-}
-.innew label span{
-    color:red;
-}
-.innew form{
-
-}
-.innew form>div{
-    padding-top: 14px;
-}
-#adm{
-    width: 208px;
-}
-.innew form>div>div{
-    float: left;
-    position:relative;
-}
-.innew form>div>div:nth-child(1){
-    margin-right: 8px;
-}
-.innew form>div>div>span{
-    color:red;
-    font-size: 14px;
-    position:absolute;
-    top:0;
-    right:0;
-    display: none;
-}
-.innew #telp{
-    width: 430px;
-}
-.noempty{
-    width: 579px;
-    float: right;
-}
-.outer{
-    margin-top: -12px;
-    width:650px;
-}
-select{
-    width: 210px;
-    line-height: 26px;
-    outline:0;
-    box-sizing: border-box;
-    border: 1px solid #babec9;
-    padding: 3px;
-    color:#babec9;
-}
-select:nth-child(2){
-    margin: 0 5px;
-}
-
-.innew #addr{
-   width: 650px;
-   box-sizing: border-box;
-   color:#ccc;
-}
-.innew #aother{
-    width: 428px;
-    margin-bottom: 30px;
-}
-.othermore>a{
-    float: left;
-    width: 66px;
-    font-size: 14px;
-    color:#000;
-    border: 1px solid #babec9;
-    line-height: 24px;
-    text-indent: 10px;
-    text-align: center;
-}
-.othermore>a:nth-child(3){
-    margin: 0 3px;
-}
-.lastone{
-    padding-bottom: 20px;
-
-}
-.last{
-    line-height:52px ;
-}
-.lastone input{
-    float: left;
-    margin-top: 20px;
-
-}
-.lastone em{
-  font-size: 14px;
-}
-.innew form .lastbtn{
-    float: right;
-
-}
-.lastbtn .save{
-    display: block;
-    width: 210px;
-    line-height: 52px;
-    text-align: center;
-    background-color: #fdd900;
-    color:#000;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.wrapp .active4{
-    border:1px solid #fdd900;
-    }
 
 
 
@@ -478,9 +395,6 @@ select:nth-child(2){
     right:200px;
     display: none;
  }
-.goset{
-    display: none;
- }
  .list>div>.pretermission{
     display: block;
  }
@@ -499,6 +413,4 @@ select:nth-child(2){
     height: 321px;
     overflow: hidden;
     transition:all 0.5s;
-    display: flex;
-    flex-direction: column;
  }

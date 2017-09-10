@@ -1,18 +1,57 @@
+.buycar{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.buycarup{
+  background-color: #fdd900;
+  padding: 24px 0 14px;
+}
+.buycarup>div{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+ .buycarup p{line-height: 60px;
+  font-size:30px;
+  color:#2b2e33;
+  border-left: 5px solid #000;
+  padding-left: 22px;
+}
+.buycar p b{
+  font-weight: normal;
+  font-size:24px;
+}
+.buycar p b span{
+  color:#f85a03;
+}
+.buycar .word{
+  margin-top: 19px;
+}
+.buycar .word>span{
+  font-size:18px;
+  color:#2c2d32;
+  line-height: 36px;
+  border-bottom: 2px solid #000;
+  margin-left: 20px;
+}
+.buycar .word>span:first-child{
+  border-bottom: 5px solid #000;
+}
+.buycar>div:nth-child(2){
+  width: 1200px;
+  padding-top: 53px;
+  background-image: url('../images/order.png');
+  background-repeat: no-repeat;
+}
+
+
+
 form{
     width: 1100px;
     margin: 0 auto;
 }
-/*.select{
-    display: block;
-    width: 26px;
-    height: 26px;
-    box-sizing:border-box;
-    border:2px solid #babdcc;
-}
-.title .active{
-    background-image: url(../images/select_03.jpg);
-    border:0;
-}*/
 form .title{
     padding-bottom: 12px;
     border-bottom: 2px solid #2b2e33;
@@ -122,8 +161,11 @@ form .title span:nth-child(6){
 }
 .endleft>a{
     flex-basis: 170px;
+    display: flex;
+    align-items: center;
 }
-.endleft a i{
+.endleft a svg{
+    display: block;
     margin-right: 3px;
 }
 .endleft>p{
@@ -190,13 +232,37 @@ form .title span:nth-child(6){
     text-align: center;
     font-size: 38px;
 }
+
+/*气泡提示*/
+.delbtn{
+    position:absolute;
+    width: 210px;
+    display: flex;
+    /*display: none;*/
+}
+.delbtn>a{
+    line-height: 32px;
+    text-align: center;
+    color:#fff;
+}
 .delup{
     top:82px;
     right:-10px;
+    background: url(../images/dell_03.png) no-repeat 0px 3px;
+    padding: 12px 0 3px 3px;
 }
 .delbtndown{
     padding: 11px 0 20px 3px;
-    background: url(../images/气泡tips提示_03.png) no-repeat 0px 8px;
+    background: url(../images/tips_03.png) no-repeat 0px 8px;
     top:2px;
     left:80px;
+}
+
+.delbtn .delyes{
+    width: 74px;
+    background-color: #f50000;
+}
+.delbtn .delno{
+    width: 126px;
+    background-color: #2b2e33;
 }

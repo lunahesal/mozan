@@ -1,20 +1,19 @@
 import React,{Component} from 'react'
-import '../pub/joinPub.css'
-import './joinMain.css'
+import './join-pre.css'
 import join_01 from '../images/join_01.jpg'
 
-class JoinMain extends Component{
+class JoinPre extends Component{
   render(){
     return (
-      <section className='joinMain'>
-        <div className='join'>
-          <div className="joinup">
+      <section className='join-pre'>
+        <div className='joinpre'>
+          <div className="joinpreup">
   					<div>
   						<p>已成功加入购物车！</p>
   					</div>
   				</div>
   				<div></div>
-  				<div className='joinList'>
+  				<div className='joinpreList'>
   					<div className="pic">
   						<a href="#">
   							<img src={join_01} alt="" />
@@ -39,4 +38,4 @@ class JoinMain extends Component{
     )
   }
 }
-export default JoinMain
+export default JoinPre

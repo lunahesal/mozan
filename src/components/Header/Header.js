@@ -1,6 +1,4 @@
 import React,{ Component } from 'react'
-import '../pub/pub.css'
-
 import './header.css'
 import bag from '../icons/bag.svg'
 import search from '../icons/search.svg'
@@ -41,11 +39,8 @@ class Header extends Component{
                 </a>
                 <div>
                   {currentUser?logoutStr:loadStr}
-
-                  {
-                    // <span> / </span>
-                    // <a href="#">注册</a>
-                  }
+                  <span> / </span>
+                  <a href="#" className='sign'>注册</a>
                 </div>
               </div>
             </div>

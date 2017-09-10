@@ -1,0 +1,72 @@
+    .cashier-wrap{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(119,119,119,0.5);
+        position:fixed;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+    .cashier-wrapin{
+        width: 690px;
+        background-color: #fff;
+        position: absolute;
+        top:30px;
+        left:50%;
+        margin-left: -345px;
+    }
+    .cashier-wrapin>div{
+        width: 650px;
+        margin: 0 auto;
+    }
+    .cashier-wraptitle{
+        display: flex;
+        justify-content: space-between;
+        line-height: 58px;
+    }
+    .cashier-wraptitle span{
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .cashier-close{
+        color:#000;
+    }
+    .cashier-wrap-main{
+        padding: 72px 0 75px;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+    .cashier-wrap-main>p span{
+        display: block;
+        text-align: center;
+    }
+    .cashier-wrap-main>div{
+        display: flex;
+        justify-content: center;
+        margin-top: 48px;
+    }
+    .cashier-wrap-main>div>a{
+        display: block;
+        width: 210px;
+        line-height: 52px;
+        text-align: center;
+        background-color: #2b2e33;
+        color:#fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cashier-wrap-main>div>a:first-child{
+        margin-right: 30px;
+    }
+    .cashier-wrap-other{
+        line-height: 73px;
+
+        text-align: center;
+    }
+    .cashier-wrap-other a{
+        color: #27a8e9;
+        font-size: 14px;
+    }
