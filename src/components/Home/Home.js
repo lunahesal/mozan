@@ -3,6 +3,7 @@ import './home.css'
 import Banner from '../Banner/Banner'
 import Count from '../Count/Count'
 import Select from '../Select/Select'
+import { Link } from 'react-router-dom'
 class Home extends Component{
   render(){
     return (
@@ -32,7 +33,7 @@ class Home extends Component{
               <Select />
             </div>
             <div className="maindown">
-              <a href="join.html" className="sum">立即预购</a>
+              <Link to='/mozan/joinpre' className="sum">立即预购</Link>            
             </div>
           </div>
           <div className="picc">

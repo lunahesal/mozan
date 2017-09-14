@@ -5,6 +5,7 @@ import join_01 from '../images/join_01.jpg'
 import yanzheng_03 from '../images/yanzheng_03.jpg'
 import Load from '../Load/Load'
 import Delete from '../Delete/Delete'
+import { Link } from 'react-router-dom'
 
 
 class BuyCar extends Component{
@@ -25,17 +26,17 @@ class BuyCar extends Component{
 					</div>
 				</div>
 				<div></div>
-				<form className="list">
+				<form className="listone">
 					<div className="title">
 						<input type="checkbox" id="all" className="all" />
-						<label for="all">全选</label>
+						<label htmlFor="all">全选</label>
 						<span>商品</span>
 						<span>单价</span>
 						<span>数量</span>
 						<span>小计</span>
 						<span>操作</span>
 					</div>
-					<div className="goods">
+					<div className="goodsone">
 						<input type="checkbox"  className="item" />
 						<a href="#"><img src={join_01} alt="" /></a>
 						<p>
@@ -56,7 +57,7 @@ class BuyCar extends Component{
 							<a href="#" className="delno">不删除</a>
 						</div>
 					</div>
-					<div className="goods">
+					<div className="goodsone">
 						<input type="checkbox"  className="item" />
 						<a href="#"><img src={join_01} alt="" /></a>
 						<p>
@@ -77,7 +78,7 @@ class BuyCar extends Component{
 							<a href="#" className="delno">不删除</a>
 						</div>
 					</div>
-					<div className="goods">
+					<div className="goodsone">
 						<input type="checkbox"  className="item" />
 						<a href="#"><img src={join_01} alt="" /></a>
 						<p>
@@ -98,7 +99,7 @@ class BuyCar extends Component{
 							<a href="#" className="delno">不删除</a>
 						</div>
 					</div>
-					<div className="goods">
+					<div className="goodsone">
 						<input type="checkbox"  className="item" />
 						<a href="#"><img src={join_01} alt="" /></a>
 						<p>
@@ -123,7 +124,7 @@ class BuyCar extends Component{
 						<div className="endin">
 							<div className="endleft">
 								<input type="checkbox" id="all1" className='all' />
-								<label for="all1">全选</label>
+								<label htmlFor="all1">全选</label>
 								<a href="#" className="deldown"><Delete />删除</a>
 								<div className="delbtn delbtndown">
 									<a href="#" className="delyes">确定删除</a>
@@ -139,7 +140,7 @@ class BuyCar extends Component{
 								</div>
 							</div>
 							<div className="endright">
-								<a href="order.html" className="gosub">去结算</a>
+                <Link to='/mozan/order' className="gosub">去结算</Link>
 							</div>
 						</div>
 					</div>
@@ -152,7 +153,10 @@ class BuyCar extends Component{
 					</div>
 				</div>
 			</div>
-      <Load />
+      {
+        // <Load />
+      }
+
 		</section>
     )
   }

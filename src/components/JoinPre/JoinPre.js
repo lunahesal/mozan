@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import './join-pre.css'
 import join_01 from '../images/join_01.jpg'
+import {Link} from 'react-router-dom'
 
 class JoinPre extends Component{
   render(){
@@ -28,8 +29,9 @@ class JoinPre extends Component{
   						<span>数量：x1</span>
   					</div>
   					<div className="btn">
-  						<a href="index.html">返回</a>
-  						<a href="buycar.html">去购物车结算</a>
+              <Link to='/'>返回</Link>
+              <Link to='/mozan/buycar'>去购物车结算</Link>
+
   					</div>
   				</div>
         </div>

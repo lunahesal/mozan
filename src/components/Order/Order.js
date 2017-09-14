@@ -7,6 +7,7 @@ import Phone from '../Phone/Phone'
 import NewAdd from '../NewAdd/NewAdd'
 import join_01 from '../images/join_01.jpg'
 import yushou_03 from '../images/yushou_03.png'
+import { Link } from 'react-router-dom'
 
 class Order extends Component{
   render(){
@@ -56,7 +57,7 @@ class Order extends Component{
   								<a href="#" className="delno">不删除</a>
   							</div>
   						</div>
-  						<div className="list active">
+  						<div className="list active-order">
   							<ul>
   								<li>
   									<Adm />阿不来提·阿不杜热西提
@@ -263,7 +264,7 @@ class Order extends Component{
   							<span>￥168.00</span>
   						</p>
   						<div>
-  							<a href="cashier.html" className="btn">提交订单</a>
+                <Link to='/mozan/cashier' className="btn">提交订单</Link>
   						</div>
   					</div>
   				</div>

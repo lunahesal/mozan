@@ -71,7 +71,7 @@
     margin-right: 10px;
 }
 .list{
-    padding: 16px 23px;
+    padding: 16px 24px;
     border-bottom: 1px solid #babec9;
     font-size: 14px;
     position:relative;
@@ -80,7 +80,7 @@
 
 }
 .list ul{
-    list-style: none;
+    padding: 0;
 }
 .list ul svg{
   display: block;
@@ -130,6 +130,7 @@
     right:4px;
     background: url(../images/dell_03.png) no-repeat 0px 3px;
     padding: 12px 0 3px 3px;
+    display: none;
 }
 .delbtn2>a{
     line-height: 32px;
@@ -360,21 +361,10 @@
  }
 
 
- /*新增地址弹窗样式*/
-
-
-
-
-
-
-
-
-
-
 
 
 /*选框*/
- .active{
+ .active-order{
     background-image: url(../images/order.png);
     background-repeat: no-repeat;
     background-position: 0 -112px;

@@ -2,6 +2,7 @@ import React,{ Component } from 'react'
 import './header.css'
 import bag from '../icons/bag.svg'
 import search from '../icons/search.svg'
+import { Link } from 'react-router-dom'
 
 class Header extends Component{
   render(){
@@ -29,7 +30,7 @@ class Header extends Component{
                 <span></span>
                 <span></span>
               </a>
-              <a href="#" className="logo"></a>
+              <Link to='/' className="logo"></Link>
               <div className="topother">
                 <a href="#" className="search">
                   <img className='search' src={search} alt="" />

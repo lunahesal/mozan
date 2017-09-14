@@ -48,7 +48,7 @@
 
 
 
-form{
+.listone{
     width: 1100px;
     margin: 0 auto;
 }
@@ -71,7 +71,7 @@ form .title span:nth-child(5){
 form .title span:nth-child(6){
     margin-right: 60px;
 }
-.goods{
+.goodsone{
     padding: 20px 25px 20px 0px;
     border-bottom: 1px solid #d1d7e3;
     position:relative;
@@ -79,56 +79,56 @@ form .title span:nth-child(6){
     justify-content: space-between;
     align-items: center;
 }
-.goods>input{
+.goodsone>input{
   flex-basis: 50px;
 }
-.goods>a{
+.goodsone>a{
   flex-basis: 106px;
 }
-.goods>p{
+.goodsone>p{
   flex-grow: 2;
 }
-.goods img{
+.goodsone img{
     display: block;
 }
-.goods>p>a{
+.goodsone>p>a{
     width: 240px;
     color:#474a4f;
     font-size:14px;
     margin-bottom: 18px;
 }
-.goods>p>a:hover{
+.goodsone>p>a:hover{
     color:#fdd900;
 }
-.goods>p>span{
+.goodsone>p>span{
     display: block;
     font-size: 14px;
     color:#b6b7b7;
 }
-.goods .money{
+.goodsone .money{
     width: 475px;
     display: flex;
     justify-content: space-between;
 }
-.goods .money a,.goods .money>span,.goods .money p{
+.goodsone .money a,.goodsone .money>span,.goodsone .money p{
     line-height: 36px;
     color: #000;
 }
-.goods .money>span,.goods .money p{
+.goodsone .money>span,.goodsone .money p{
     font-size: 14px;
 }
-.goods .money .add,.goods .money .red{
+.goodsone .money .add,.goodsone .money .red{
     width: 36px;
     font-size: 18px;
     color:#000;
     text-align: center;
     border:1px solid #2d2e32;
 }
-.goods .money>p:nth-child(5){
+.goodsone .money>p:nth-child(5){
     width: 30px;
     color:#f20201;
 }
-.goods .money .qty{
+.goodsone .money .qty{
     width: 10px;
 }
 .end{
@@ -238,7 +238,7 @@ form .title span:nth-child(6){
     position:absolute;
     width: 210px;
     display: flex;
-    /*display: none;*/
+    display: none;
 }
 .delbtn>a{
     line-height: 32px;
